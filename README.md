@@ -3,6 +3,12 @@
 
 Docker container for helping to generate Tensorflow Lite Micro examples for mbed.
 
+Create a docker image:
+
+```
+docker build --tag tf-lite-mbed .
+```
+
 Running the command below will generate the hello world example for mbed in the current directory. (it will create a `/linux_x86_64/prj/hello_world/mbed` directory)
 
 ```sh
