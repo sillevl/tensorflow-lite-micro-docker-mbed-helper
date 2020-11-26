@@ -10,6 +10,7 @@ RUN apt install \
   gcc-arm-none-eabi \ 
   binutils-arm-none-eabi \
   xxd \
+  wget\
   -y
 
 RUN pip3 install mbed-cli
