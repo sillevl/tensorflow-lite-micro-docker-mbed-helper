@@ -14,7 +14,8 @@ RUN apt install \
   -y
 
 RUN pip3 install mbed-cli
+RUN pip3 install Pillow
 
-RUN git clone --depth 1 https://github.com/tensorflow/tensorflow /tensorflow
+RUN git clone --depth 1 https://github.com/tensorflow/tflite-micro.git /tensorflow
 
 WORKDIR /tensorflow
